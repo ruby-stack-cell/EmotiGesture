@@ -2,96 +2,102 @@
 
 
 
-# [Project Name] 🎯
+# EmotiGesture 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: EmotiGesture
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: Rubeena P.A. - ASIET
+- Member 2: Sreelakshmi T.A. - ASIET
 
 ### Project Description
-[2-3 lines about what your project does]
+EmotiGesture is a browser-based computer vision project that reads live facial expressions and hand gestures to generate emoji-based reactions and contextual messages in real time. It transforms non-verbal communication into instant digital output using AI-powered detection directly in the browser.
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+Typing out emotional intent is painfully slow, awkward, and sometimes impossible when you are trying to react quickly in a conversation. We decided to solve the crisis of "I want to send a reaction, but I have to stop and type it."
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+Instead of typing, EmotiGesture looks at your face and hands, interprets the vibe, and instantly turns it into expressive emoji and message combinations. It is fast, fun, and works entirely on the client side without uploading your video to a server.
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+- TypeScript
+- React 18
+- Vite
+- Tailwind CSS
+- MediaPipe Tasks Vision
+- Lucide React
+- Web Audio API / SpeechSynthesis
+- Browser-based computer vision pipeline
 
 For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+- Standard webcam or laptop camera
+- CPU/GPU capable of running local ML inference
+- Internet connection for package installation and local development
 
 ### Implementation
 For Software:
 # Installation
-[commands]
+npm install
 
 # Run
-[commands]
+npm run dev
+
+# Build
+npm run build
 
 ### Project Documentation
 For Software:
 
 # Screenshots (Add at least 3)
 ![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+*Shows the live camera detection view with facial expression and hand gesture analysis.*
 
 ![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+*Shows the emoji result card and interpreted message generated from the detected combination.*
 
 ![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+*Shows the history and custom mapping panel for reusing favorite reactions.*
 
 # Diagrams
 ![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
+*The application captures webcam input, classifies face and hand data, fuses the results through rule-based interpretation, and displays the final emoji output in the UI.*
 
 For Hardware:
 
 # Schematic & Circuit
 ![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
+*Not applicable for this software-only project; the system relies on webcam input and local browser processing.*
 
 ![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
+*No physical circuit required for this project.*
 
 # Build Photos
 ![Components](Add photo of your components here)
-*List out all components shown*
+*List out all components shown: webcam, laptop/desktop system, browser application interface.*
 
 ![Build](Add photos of build process here)
-*Explain the build steps*
+*The build process includes project setup, dependency installation, UI development, and vision pipeline integration.*
 
 ![Final](Add photo of final product here)
-*Explain the final build*
+*The final product is a webcam-driven emoji interpreter running in the browser.*
 
 ### Project Demo
 # Video
 [Add your demo video link here]
-*Explain what the video demonstrates*
+*This video demonstrates live face and hand detection, emotional interpretation, and final emoji messaging output.*
 
 # Additional Demos
 [Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- [Name 1]: Built the React interface, landing page, and user interaction flow for camera-based testing.
+- [Name 2]: Developed the facial and hand detection logic, rule engine, and interpretation pipeline.
+- [Name 3]: Integrated UI state management, history storage, custom mappings, and final polishing for the demo experience.
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
