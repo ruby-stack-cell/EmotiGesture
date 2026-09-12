@@ -54,14 +54,12 @@ npm run build
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Shows the live camera detection view with facial expression and hand gesture analysis.*
+![Screenshot1]<img width="1920" height="1020" alt="Screenshot 2026-09-12 064218" src="https://github.com/user-attachments/assets/5d88d6fc-5d25-4e32-9952-e10a745263d5" />
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Shows the emoji result card and interpreted message generated from the detected combination.*
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Shows the history and custom mapping panel for reusing favorite reactions.*
+![Screenshot2]<img width="1920" height="1020" alt="Screenshot 2026-09-12 072336" src="https://github.com/user-attachments/assets/092c1066-324a-4a50-9256-b33e43f5acc7" />
+
+![Screenshot3]<img width="1920" height="1020" alt="Screenshot 2026-09-12 072355" src="https://github.com/user-attachments/assets/17c26222-b0b5-42c2-9f3f-c1611ed682d2" />
 
 # Diagrams
 ![Workflow](Add your workflow/architecture diagram here)
@@ -88,8 +86,10 @@ For Hardware:
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*This video demonstrates live face and hand detection, emotional interpretation, and final emoji messaging output.*
+
+https://github.com/user-attachments/assets/7f2849d9-a547-4338-befe-b2404d6fac82
+
+
 
 # Additional Demos
 [Add any extra demo materials/links]
